@@ -1,0 +1,21 @@
+.gamescreen,.endscreen{
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.typescore{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.retry{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    font-size: 40px;
+    margin-top: 25px;
+}

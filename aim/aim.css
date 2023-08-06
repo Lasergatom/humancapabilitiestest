@@ -1,0 +1,56 @@
+.target{
+    height:125px;
+    position: absolute;
+}
+.aimcanvas{
+    height:100%;
+    width:100%;
+}
+.targetlabel{
+    height:50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.endscreen{
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: none;
+}
+.finaltime{
+    font-size: 60px;
+}
+.desc{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.retry{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.gmpage{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:lightgray;
+    border: 0px;
+}
+.ldpage,.sutrigger,.lgtrigger{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+}

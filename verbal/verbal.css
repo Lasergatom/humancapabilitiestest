@@ -1,0 +1,70 @@
+.gamescreen,.endscreen{
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.databar{
+    font-size: 30px;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.options{
+    font-size: 40px;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+.life{
+    height:30px;
+}
+.word{
+    font-size: 60px;
+    margin-top: 60px;
+}
+.seenword,.newword{
+    width: 150px;
+    height: 75px;
+    background-color: orange;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.wordscore{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.retry{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.gmpage{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:lightgray;
+    border: 0px;
+}
+.ldpage,.sutrigger,.lgtrigger{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+}

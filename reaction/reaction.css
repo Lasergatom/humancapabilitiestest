@@ -1,0 +1,47 @@
+.reactioncontent,.endscreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: none;
+}
+.reactionstatus,.reactscore{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.reactionnote{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.retry{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.gmpage{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:lightgray;
+    border: 0px;
+}
+.ldpage,.sutrigger,.lgtrigger{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+}

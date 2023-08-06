@@ -1,0 +1,51 @@
+.gamescreen,.endscreen{
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+.gamenode{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(118, 159, 36);
+}
+.gamepad,.gamenode,.row{
+    border: 5px solid yellowgreen;
+}
+.seqlen{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.seqscore{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.retry{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.gmpage{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:lightgray;
+    border: 0px;
+}
+.ldpage,.sutrigger,.lgtrigger{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+}

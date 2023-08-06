@@ -1,0 +1,17 @@
+.gmpage{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:lightgray;
+    border: 0px;
+}
+.ldpage,.sutrigger,.lgtrigger,.gmpage{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+}

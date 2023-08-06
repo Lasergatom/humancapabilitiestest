@@ -1,0 +1,12 @@
+1.cps test :)
+Random generation:
+    2.number memory :)
+    time calculation:
+        6.reaction game :)
+        3.aim trainer :)
+AJAX:
+    4.typing test
+    5.verbal memory :)
+Grid:
+    7.sequence memory :)
+    8.visual memory :)

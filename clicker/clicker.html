@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="../popup.css">
+        <link rel="stylesheet" href="clicker.css">
+        <script src="../jquery-3.6.4.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <span class="top-bar">
+                <span class="pageselect">
+                    <a href="index.html" class="gmpage">Game Modes</a>
+                </span>
+                <span class="accountoptions">
+                    <a href="../signup/signup.html"><span class="sutrigger">Sign Up</span></a>
+                    <a href="../login/login.html"><span class="lgtrigger">Login</span></a>
+                </span>
+                <span class="accountui">
+                    <span class="accountname">Player:</span>
+                    <span class="sotrigger">Sign Out</span>
+                </span>
+            </span>
+            <div class="top-screen">
+                <div class="titlescreen">
+                    <img src="../imgs/mouse.png" class="tpimg">
+                    <div style="font-size: 80px;margin-top:50px;">Clicks per Second Test</div>
+                    <div style="font-size: 25px;margin-top: 25px;">Click the mouse as quick as possible in the area for 10 seconds</div>
+                    <button class="begin-button">Start</button>
+                </div>
+                <div id="statcontain">
+                    <span id="clickcount">clicks: 0</span>
+                    <span style="margin-right:50%;"></span>
+                    <span id="timer">time: 10</span>
+                </div>
+                <div id="clickarea"><div style="font-size: 50px;">click to start timer</div></div>
+                <div class="endscreen">
+                    <div class="cpsscore">Clicks Per Second: 0</div>
+                    <button class="retry">Retry</button>
+                </div>
+            </div>
+
+            <div class="blur-bg"></div>
+                <div class="popcontent">
+                    <div class="popheader">head</div>
+                    <div class="popbody">body body body</div>
+                    <div class="popbuttonrow">
+                        <div style="display:flex;justify-content: space-between;">
+                            <button class="cancelpop">close</button>
+                            <button class="cancelpop">close</button>
+                        </div>
+                </div>
+            </div>
+            <div class="gmrc">
+                <a href="../clicker/clicker.html" style="text-decoration: none;">
+                    <div class="gmtrigger">
+                        <img src="../imgs/mouse.png" style="height:100px;">
+                        <div class="gmttitle">CPS test</div>
+                        <div class="gmtdes">Click your mouse as quick as you can</div>
+                    </div>
+                </a>
+                <a href="../number/number.html" style="text-decoration: none;">
+                    <div class="gmtrigger">
+                        <img src="../imgs/numbers.png" style="height:100px;">
+                        <div class="gmttitle">Number Memory</div>
+                        <div class="gmtdes">Remember the longest number you can</div>
+                    </div>
+                </a>
+                <a href="../reaction/reaction.html" style="text-decoration: none;">
+                    <div class="gmtrigger">
+                        <img src="../imgs/stopwatch.png" style="height:100px;">
+                        <div class="gmttitle">Reaction Test</div>
+                        <div class="gmtdes">React as quick as possible</div>
+                    </div>
+                </a>
+            </div>
+            <div class="gmrc">
+                <a href="../aim/aim.html" style="text-decoration: none;">
+                    <div class="gmtrigger">
+                        <img src="../imgs/blacktarget.png" style="height:100px;">
+                        <div class="gmttitle">Aim Trainer</div>
+                        <div class="gmtdes">Test both your speed and accuracy</div>
+                    </div>
+                </a>
+                <a href="../sequence/sequence.html" style="text-decoration: none;">
+                    <div class="gmtrigger">
+                        <img src="../imgs/brain.jpeg" style="height:100px;">
+                        <div class="gmttitle">Sequence Memory</div>
+                        <div class="gmtdes">Remenber the longest order of tiles</div>
+                    </div>
+                </a>
+                <a href="../visual/visual.html" style="text-decoration: none;">
+                    <div class="gmtrigger">
+                        <img src="../imgs/eye.png" style="height:100px;">
+                        <div class="gmttitle">Visual Memory</div>
+                        <div class="gmtdes">Remenber the most number of tiles without sequence</div>
+                    </div>
+                </a>
+            </div>
+            <div class="gmrc">
+                <a href="../verbal/verbal.html" style="text-decoration: none;">
+                    <div class="gmtrigger">
+                        <img src="../imgs/blocks.png" style="height:100px;">
+                        <div class="gmttitle">Verbal Memory</div>
+                        <div class="gmtdes">Sort the words into seen or new words</div>
+                    </div>
+                </a>
+                <div class="gmtrigger">
+                    <img src="../imgs/questionmark.png" style="height:100px;">
+                    <div class="gmttitle">Coming soon...</div>
+                    <div class="gmtdes">>:D</div>
+                </div>
+            </div>
+
+        </main>
+        <script type="module" src="../index.js"></script>
+        <script type="module" src="clicker.js"></script>
+    </body>
+</html>
