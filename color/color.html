@@ -2,10 +2,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="../main.css">
-        <link rel="stylesheet" href="visual.css">
+        <link rel="stylesheet" href="color.css">
         <script src="../jquery-3.6.4.min.js"></script>
         <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    </head>
     </head>
     <body>
         <main>
@@ -25,79 +24,35 @@
             </span>
             <div class="top-screen">
                 <div class="titlescreen">
-                    <img src="../imgs/eye.png" class="tpimg">
-                    <div style="font-size: 80px;margin-top:50px;">Visual Memory Test</div>
-                    <div style="font-size: 25px;margin-top: 25px;">Try to memorise largest amount of lit up squares</div>
+                    <img src="../imgs/color.png" class="tpimg">
+                    <div style="font-size: 80px;margin-top:50px;">Color Sorter</div>
+                    <div style="font-size: 25px;margin-top: 25px;">Find the different color out of 9 tiles</div>
                     <button class="begin-button">Start</button>
-                </div>
-                <div class="gamescreen">
-                    <div class="databar">
-                        <span class="glowtiles">Glowing Tiles: 3</span>
-                        <span style="margin-left: 30px;"></span>
-                        <span>Lives: </span>
-                        <span>
-                            <img class="life" id="life1" src="../imgs/life.png">
-                            <img class="life" id="life2" src="../imgs/life.png">
-                            <img class="life" id="life3" src="../imgs/life.png">
-                        </span>
-                    </div>
+                </div><div class="gamescreen">
+                    <div class="round">Color Score: 0</div>
                     <table class="gamepad">
                         <tr class="row">
-                            <td class="gamenode" id="node00"></td>
-                            <td class="gamenode" id="node01"></td>
-                            <td class="gamenode" id="node02"></td>
-                            <td class="gamenode" id="node03"></td>
-                            <td class="gamenode" id="node04"></td>
-                            <td class="gamenode" id="node05"></td>
+                            <td class="gamenode" id="node0"></td>
+                            <td class="gamenode" id="node1"></td>
+                            <td class="gamenode" id="node2"></td>
                         </tr>
                         <tr class="row">
-                            <td class="gamenode" id="node06"></td>
-                            <td class="gamenode" id="node07"></td>
-                            <td class="gamenode" id="node08"></td>
-                            <td class="gamenode" id="node09"></td>
-                            <td class="gamenode" id="node10"></td>
-                            <td class="gamenode" id="node11"></td>
+                            <td class="gamenode" id="node3"></td>
+                            <td class="gamenode" id="node4"></td>
+                            <td class="gamenode" id="node5"></td>
                         </tr>
                         <tr class="row">
-                            <td class="gamenode" id="node12"></td>
-                            <td class="gamenode" id="node13"></td>
-                            <td class="gamenode" id="node14"></td>
-                            <td class="gamenode" id="node15"></td>
-                            <td class="gamenode" id="node16"></td>
-                            <td class="gamenode" id="node17"></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="gamenode" id="node18"></td>
-                            <td class="gamenode" id="node19"></td>
-                            <td class="gamenode" id="node20"></td>
-                            <td class="gamenode" id="node21"></td>
-                            <td class="gamenode" id="node22"></td>
-                            <td class="gamenode" id="node23"></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="gamenode" id="node24"></td>
-                            <td class="gamenode" id="node25"></td>
-                            <td class="gamenode" id="node26"></td>
-                            <td class="gamenode" id="node27"></td>
-                            <td class="gamenode" id="node28"></td>
-                            <td class="gamenode" id="node29"></td>
-                        </tr>
-                        <tr class="row">
-                            <td class="gamenode" id="node30"></td>
-                            <td class="gamenode" id="node31"></td>
-                            <td class="gamenode" id="node32"></td>
-                            <td class="gamenode" id="node33"></td>
-                            <td class="gamenode" id="node34"></td>
-                            <td class="gamenode" id="node35"></td>
+                            <td class="gamenode" id="node6"></td>
+                            <td class="gamenode" id="node7"></td>
+                            <td class="gamenode" id="node8"></td>
                         </tr>
                     </table>
                 </div>
                 <div class="endscreen">
-                    <div class="glowscore">Sequence Length: 0</div>
+                    <div class="score">Color Score: 0</div>
                     <button class="retry">Retry</button>
                 </div>
             </div>
-
             <div class="gmrc">
                 <a href="../clicker/clicker.html" style="text-decoration: none;">
                     <div class="gmtrigger">
@@ -162,6 +117,7 @@
             </div>
         </main>
         <script type="module" src="../index.js"></script>
-        <script type="module" src="visual.js"></script>
+        <script type="module" src="color.js"></script>
+
     </body>
 </html>

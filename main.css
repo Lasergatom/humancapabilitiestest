@@ -70,6 +70,9 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0;
     width:100%;
     height:40px;
 
@@ -89,13 +92,21 @@ button{
     justify-content: right;
     width:40%;
 }
-.gmpage:hover,.ldpage:hover,.sutrigger:hover,.lgtrigger:hover,.sotrigger:hover{
+.gmpage:hover,.ptpage:hover,.sutrigger:hover,.lgtrigger:hover,.sotrigger:hover{
     background-color:lightgray;
 }
 a{
     text-decoration: none;
 }
-.sotrigger,.accountname{
+.sotrigger,.accountname,.ptpage{
+    font-size: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+}
+.ldpage,.sutrigger,.lgtrigger,.gmpage{
     font-size: 20px;
     padding-left:25px;
     padding-right:25px;
